@@ -60,4 +60,24 @@ if x > 10 {
 
 🛠️ **Happy Coding with Go!** 🐹
 
+---
+
+## Differance between Nodejs and Go
+
+| Feature                | Node.js                                             | Go (Golang)                                         |
+|------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| **Type**               | JavaScript runtime environment                      | Compiled programming language                       |
+| **Language**           | JavaScript                                          | Go (Golang)                                         |
+| **Concurrency Model**  | Event-driven, non-blocking I/O, single-threaded     | Goroutines and channels for lightweight concurrency |
+| **Performance**        | Good for I/O-bound tasks, slower for CPU-bound      | High performance for both I/O and CPU-bound tasks   |
+| **Compilation**        | Interpreted (JIT via V8)                            | Compiled to native binaries                         |
+| **Standard Library**   | Moderate, relies on npm ecosystem                   | Rich, powerful standard library                     |
+| **Deployment**         | Requires Node.js runtime                            | Deploys as a single static binary                   |
+| **Error Handling**     | Exceptions (try/catch)                              | Multiple return values (result, err)                |
+| **Use Cases**          | Web servers, APIs, real-time apps                   | Web servers, APIs, networking, system tools         |
+| **Learning Curve**     | Easy for JavaScript developers                      | Simple syntax, statically typed                     |
+| **Community/Ecosystem**| Large npm package ecosystem                         | Growing, strong support from Google                 |
+
+
+
 ## Go is better compare to nodejs in cpu intensive task 
